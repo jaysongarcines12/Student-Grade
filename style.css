@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #222;
+  margin: 0;
+  padding: 30px 16px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+caption {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #1f4a30;
+  color: #ffffff;
+}
+
+/* Center the numerical grades */
+td.num, th.num {
+  text-align: center;
+}
+
+/* Alternating row colors */
+tbody tr:nth-child(even) {
+  background-color: #eef3ee;
+}
+
+/* Hover effect */
+tbody tr:hover {
+  background-color: #f3e3c3;
+}
+
+/* Challenge: remarks colors */
+.passed {
+  color: green;
+  font-weight: bold;
+}
+
+.failed {
+  color: red;
+  font-weight: bold;
+}
+
+/* Challenge: footer row */
+tfoot td {
+  background-color: #d9e5d9;
+  font-weight: bold;
+}
